@@ -1,8 +1,18 @@
 <template>
   <view class="container">
+    <HeaderComponent />
     <text class="text-color-primary">My Vue Native App</text>
   </view>
 </template>
+
+<script>
+import HeaderComponent from './components/headerComponent.vue';
+export default {
+  components: {
+    HeaderComponent,
+  },
+}
+</script>
 
 <style>
 .container {
